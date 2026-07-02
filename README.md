@@ -1,6 +1,8 @@
 # asas_sensors_bringup
 
-This is a ROS 2 bringup package for synchronized data collection from an **Ouster OS0 LiDAR** and an **Orbbec Astra 2 camera**, running on real hardware. It provides a launch file to start both sensors together, along with an RViz config, and a Python script to record the sensor streams to a `rosbag2` (`.mcap`) file. This was tested on **ROS 2 Humble**, **Ubuntu 22.04 LTS**.
+![SensorPod](docs/sensor_pod.png)This is a ROS 2 bringup package for synchronized data collection from an **Ouster OS0 LiDAR** and an **Orbbec Astra 2 camera**, running on real hardware. It provides a launch file to start both sensors together, along with an RViz config, and a Python script to record the sensor streams to a `rosbag2` (`.mcap`) file. This was tested on **ROS 2 Humble**, **Ubuntu 22.04 LTS**.
+
+Refer to the [docs](docs) on setting up the OS0 LiDAR. 
 
 ## Dependencies
 
